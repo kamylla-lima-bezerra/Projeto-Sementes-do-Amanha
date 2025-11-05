@@ -1,1 +1,1 @@
-# Projeto-Sementes-do-Amanha
+Bem vindo, ao projeto Sementes do Amanhã

@@ -37,6 +37,7 @@ body{
     padding: 20px 15px;
     display: block;
     transition: background-color 0.3s ease;
+    font-size: 20px;
 }
 
 .nav-links a:hover{
@@ -79,23 +80,3 @@ body{
   .nav-links.mobile a{padding:.8rem;border-radius:6px}
   .menu-nav{padding:.4rem 0}
 }
-
-.rodape{
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 15px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}   
-
-.cabecalho{
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 15px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}   

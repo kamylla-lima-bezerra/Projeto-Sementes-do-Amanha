@@ -6,20 +6,20 @@ body{
 }
 
 .rodape{
-    background-color: #333;
+    background-color:  #005f8fe0;
     color: white;
     text-align: center;
-    padding: 20px 15px;
+    padding: 10px 10px;
     position: relative;
     bottom: 0;
     width: 100%;
 }   
 
 .cabecalho{
-    background-color: #333;
+    background-color: #005f8fe0;
     color: white;
     text-align: center;
-    padding: 20px 15px;
+    padding: 10px 10px;
     position: relative;
     bottom: 0;
     width: 100%;

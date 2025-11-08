@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJETO - Sementes do Amanhão</title>
-    <!--> <link rel="stylesheet" href="../Projeto Sementes do Amanhã/MENU/style-menu.css"> -->
+    <link rel="stylesheet" href="MENU/style-menu.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-   <div class="Topo">
         <!-- Cabeçalho -->
         <header class="cabecalho">
             <h1>PROJETO SEMENTES DO AMANHÃ</h1>
             <p>Bem-vindo ao nosso espaço digital</p>
         </header>
-
-    
-   </div>
-   
+        <div id="menu-container">   
+            <!-- O menu será carregado aqui via JavaScript -->
+            carregarMenu(); 
+        </div>
+      
    <div class="Corpo">
    
         <!-- Corpo/Conteúdo Principal -->
@@ -29,16 +29,13 @@
     
    </div>
    
-   <div class="Final>
+   <!-- Rodapé -->
+   <footer class="rodape">
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        <p>Desenvolvido com <span style="color: #e74c3c;">❤</span> por <a href="#">Sua Empresa</a></p>
+    </footer>
     
-        <!-- Rodapé -->
-        <footer class="rodape">
-                <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
-                <p>Desenvolvido com <span style="color: #e74c3c;">❤</span> por <a href="#">Sua Empresa</a></p>
-        </footer>
-    
-   </div>
-   
+   <script src="script.js"></script>
  
 </body>
 </html>

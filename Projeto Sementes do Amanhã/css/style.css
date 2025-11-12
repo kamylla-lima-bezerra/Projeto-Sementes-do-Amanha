@@ -97,6 +97,7 @@ body{
     overflow: hidden;
     text-align: center;
     margin: 0 5px;
+    text-decoration: none;
 }
 
 .btn-primary{
@@ -130,3 +131,21 @@ body{
 
 }
 
+.container-pai {
+   display: flex;          /* Ativa o Flexbox */
+   justify-content: space-around; /* Distribui o espaço entre os itens */
+    gap: 20px;              /* Espaçamento entre os contêineres */
+    padding: 20px;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin: top 20px;
+}
+
+.container-filho {
+    flex: 1;                /* Faz com que ambos ocupem o mesmo espaço disponível */
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+}

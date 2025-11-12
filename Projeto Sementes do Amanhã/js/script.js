@@ -63,10 +63,12 @@ function handleSubmit(event) {
         return;
     }
 
+   alert('NA FUNCAO DE CADASTRO');
+
     // Coleta os valores do formulário
     const formData = {
-        nome,
-        email,
+        nome: form.nome.value.trim(),  
+        email: form.email.value.trim(),
         telefone: form.telefone.value.trim(),
         idade: form.idade.value.trim(),
         disponibilidade: form.disponibilidade.value.trim(),
@@ -77,10 +79,11 @@ function handleSubmit(event) {
     };
 
     let voluntarios = JSON.parse(localStorage.getItem('voluntarios')) || [];
+    
     voluntarios.push(formData);
     localStorage.setItem('voluntarios', JSON.stringify(voluntarios));
-
-    // Mostra mensagem de sucesso
+                
+    //Mostra mensagem de sucesso
     const successMessage = document.getElementById('successMessage');
     successMessage.classList.add('show');
     successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -90,6 +93,9 @@ function handleSubmit(event) {
 
     // Esconde mensagem após 5 segundos
     setTimeout(() => successMessage.classList.remove('show'), 5000);
+
+    // Permite nova submissão
+    form.dataset.submitting = 'false';
 
     // Atualiza a tabela de voluntários
     exibirVoluntarios();

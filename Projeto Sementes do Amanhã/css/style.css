@@ -103,6 +103,7 @@ body{
 .btn-primary{
     background: #667eea;
     color: white;
+    display: inline-block; 
 }
 .btn-secondary{
     background: #764ba2;

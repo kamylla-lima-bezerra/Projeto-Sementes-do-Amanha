@@ -63,7 +63,6 @@ function handleSubmit(event) {
         return;
     }
 
-   alert('NA FUNCAO DE CADASTRO');
 
     // Coleta os valores do formulário
     const formData = {
